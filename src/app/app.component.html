@@ -1,0 +1,10 @@
+<form action="" [formGroup]="form">
+  <label for="">Nombre: </label>
+  <input type="text" formControlName="name"/>
+  <br>
+  <label for="">email</label>
+  <input type="email" formControlName="email"/>
+  <button (click)="guardar()">Aceptar</button>
+</form>
+
+<h1>{{nombre}}</h1>
